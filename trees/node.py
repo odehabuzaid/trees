@@ -1,5 +1,10 @@
 class Node:
-    def _int_(self,data):
+    """
+    Binary Tree Node 
+    """
+    def __init__(self,value):
         self.left = None
         self.right = None
-        self.data = data
+        self.value = value
+    def __str__(self):
+        return '%s' % self.data
